@@ -1,0 +1,52 @@
+
+.myContainer{
+  padding-left: 300px;
+  padding-right: 300px;
+  background: #A770EF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  .insideContent{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    background-color: steelblue;
+  }
+  
+  .mainContent{
+    .myImage{
+      border-radius: 50%;
+      border-width: 3px;
+      width: 20% !important;
+      height: 20% !important;
+    }
+
+    h3{
+      font-size:x-large;
+    }
+    h1{
+      font-size: larger;
+      font-weight: bolder;
+    }
+
+    ul li{
+      font-size: large;
+    }
+    .btn {
+      background-color: DodgerBlue;
+      border: none;
+      color: white;
+      padding: 5px 20px;
+      cursor: pointer;
+      font-size: 20px;
+    }
+    
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: RoyalBlue;
+    }
+  }
+
+
+}
+

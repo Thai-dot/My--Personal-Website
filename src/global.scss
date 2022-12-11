@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+#Main{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  #myVideo{
+    
+    width: 100vw;
+    height: 100vh;
+    filter: grayscale(80%);
+    -o-filter: grayscale(80%);
+    z-index: -1;
+    object-fit: cover;
+  }
+
+
+  #myAudio{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 22;
+    margin-bottom: 10px;
+
+  }
+}
+
