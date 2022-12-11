@@ -23,6 +23,7 @@ export default component$(() => {
             <li>🪧 Ben Tre, Viet Nam</li>
             <li>⏲️ {moment("20010820", "YYYYMMDD").fromNow().split(" ")[0]} years old</li>
             <li>📞 0919520565</li>
+            <li>📧 nguyenhoangthai7871@gmail.com</li>
           </ul>
 
           <button class="btn mt-4">
