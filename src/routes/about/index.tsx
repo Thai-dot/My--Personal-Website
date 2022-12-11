@@ -12,7 +12,7 @@ export default component$(() => {
   useStyles$(aboutStyle);
 
   return (
-    <div class="container  myContainer mx-auto">
+    <div class=" h-screen w-screen  myContainer mx-auto">
       <div class="insideContent  h-screen ">
         <div class="mainContent flex flex-col items-center">
           <img src={Avatar} class="myImage" alt="my avatar" />
@@ -21,7 +21,7 @@ export default component$(() => {
           <ul>
             <li>🏢 Student at HCMUS</li>
             <li>🪧 Ben Tre, Viet Nam</li>
-            <li>⏲️ {moment().format("MMMM Do YYYY, h:mm:ss a")}</li>
+            <li>⏲️ {moment("20010820", "YYYYMMDD").fromNow().split(" ")[0]} years old</li>
             <li>📞 0919520565</li>
           </ul>
 

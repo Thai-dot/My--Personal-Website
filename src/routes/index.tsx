@@ -5,13 +5,9 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import Video from "../assets/Car.mp4";
 import Music from "../assets/music.mp3";
 
-import Nav from "../components/nav/nav"
-
-
+import Nav from "../components/nav/nav";
 
 export default component$(() => {
-  
-
   return (
     <div id="Main">
       <Nav />
